@@ -1,0 +1,47 @@
+Tic-Tac-Toe_JavaScript
+Overview
+Tic-Tac-Toe_JavaScript is a visually engaging web application that allows users to play the classic game of Tic-Tac-Toe. The game features a modern, eye-catching design with dynamic animations and effects. Built using HTML, CSS, and JavaScript, this application provides a fun and interactive experience for players of all ages.
+
+Features
+Interactive Game Board: A grid where players can click to place their 'X' or 'O'.
+Winning and Draw Detection: Automatically detects and displays the winner or a draw.
+Reset Functionality: Allows players to restart the game with a click of a button.
+Dynamic Background Animation: Adds a visually appealing particle effect in the background.
+Technologies Used
+1. HTML
+HTML (HyperText Markup Language) is used to structure the content of the web page.
+
+Game Board: Defined as a grid of cells where players make their moves.
+Status and Reset Button: Elements for displaying the game status and providing a reset option.
+2. CSS
+CSS (Cascading Style Sheets) is used to style the application, including layout, colors, and animations.
+
+Custom Fonts: Uses the 'Orbitron' font from Google Fonts for a futuristic look.
+CSS Variables: Defines colors and other design elements to ensure consistency.
+Grid Layout: Creates a responsive and aligned game board.
+Animations: Includes glowing text effects, background particle animation, and flip animations for winning cells.
+Hover Effects: Adds interactive visual feedback to game cells and the reset button.
+3. JavaScript
+JavaScript provides the functionality and interactivity of the game.
+
+Game Logic: Handles player moves, checks for wins or draws, and manages game state.
+Event Handling: Listens for clicks on the game cells and the reset button.
+DOM Manipulation: Updates the game board and status dynamically based on player actions.
+Background Animation: Creates and animates particles in the background for an engaging visual effect.
+Getting Started
+Clone the Repository
+
+bash
+Copy code
+git clone https://github.com/yourusername/tic-tac-toe_javascript.git
+cd tic-tac-toe_javascript
+Open the Application
+
+Open the index.html file in your preferred web browser to view and interact with the application.
+
+Folder Structure
+index.html: The main HTML file that serves as the entry point for the application.
+styles/: Contains the CSS styles used for the application. (In this case, embedded in the HTML file)
+scripts/: Contains JavaScript code for game logic and interactivity. (In this case, embedded in the HTML file)
+Contributing
+Feel free to submit issues or pull requests. Please ensure that your code adheres to the project's coding standards and includes appropriate comments.
